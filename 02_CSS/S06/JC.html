@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .container {
+        width: 800px;
+        height: 400px;
+        box-shadow: 0 0 10px black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+      .box {
+        width: 70px;
+        height: 70px;
+        background-color: black;
+        color: white;
+      }
+      .box1 {
+        order: 3;
+      }
+      .box2 {
+        order: 1;
+      }
+      .box3 {
+        order: 2;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="box box1">1</div>
+      <div class="box box2">2</div>
+      <div class="box box3">3</div>
+    </div>
+  </body>
+</html>
